@@ -144,8 +144,9 @@ See [libs/README.md](libs/README.md) for a short tutorial on how to add your own
 * Open the file `/make/common/NRF5X.make`:
     * Change all commands `python` to `python3`
 * Install the C compiler with the command `brew install armmbed/formulae/arm-none-eabi-gcc`
-* Install the nrfutil package with the command `sudo -H pip install nrfutil`
-
+* Install the nrfutil executable from the [official webiste](https://www.nordicsemi.com/Products/Development-tools/nrf-util) 
+* Make it executable with `chmod +x nrfutil` and add it to PATH.
+* Install nrf5sdk-tools with the command `nrfutil install nrf5sdk-tools`
 
 
 Using Espruino in your Projects

@@ -41,7 +41,7 @@ sudo pip install nrfutil
 ### Compilation
 
 ```
-make clean;PUCKJS=1 RELEASE=1 DFU_UPDATE_BUILD=1 make
+make clean;BOARD=PUCKJS RELEASE=1 DFU_UPDATE_BUILD=1 make
 ```
 
 # Flashing
